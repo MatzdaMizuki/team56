@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Visitor Information & Services</title>
+        <meta name="description" content="My Website">
+        <link rel="stylesheet" href="StyleSheets/layout.css">
+        <link rel="stylesheet" href="StyleSheets/information.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/Waterworld.png" alt="Waterpark Logo">
+                </a>
+            </div>
+            <div class="header-content">
+                <h1>Welcome to Waterworld Funpark Resort</h1>
+                <nav id="header-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="attractions.html">Attractions & Dining</a></li>
+                        <li class="active"><a href="information.html">Visitor Information & Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="page-container">
+            <!-- <header>
+                <nav class="navbar">
+                    <a>Funpark</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+                    <a href="attractions.html">Attractions & Dining</a>&nbsp;&nbsp;&nbsp
+                    <a href="information.html">Visitor Information & Services</a>
+                </nav>
+                <h1 class="index">Visitor Information & Services</h1>
+            </header> -->
+
+            <div class="button-group">
+                <button onclick="openTab('planvisit')">Plan Your Visit</button>
+                <button onclick="openTab('tickets')">Tickets</button>
+                <button onclick="openTab('tips')">Tips & Guidances</button>
+                <button onclick="openTab('services')">Services at the Park</button>
+                <button onclick="openTab('faq')">Frequently Asked Questions</button>
+            </div>
+
+            <main>
+                <div id="planvisit">
+                    <br>
+                    <br>
+                    <h1>Plan Your Visit</h1>
+                    <br>
+                    <br>
+                    <section>
+                        <article>
+                            <h2>Opening Times</h2>
+                            <br>
+                            <div class="grid-container">
+                                <div class="column">
+                                    <img class="opening-times-img" src="Images/information/calendar.png" alt="Image placeholder">
+                                    <h4>Dates</h4>
+                                    <p>May to September</p>
+                                    <p>October to April</p>
+                                </div>
+                                <div class="column">
+                                    <img class="opening-times-img" src="Images/information/working hours.png" alt="Image placeholder">
+                                    <h4>Park hours</h4>
+                                    <p>10:00 AM to 8:00 PM</p>
+                                    <p>10:30 AM to 5:30 PM</p>
+                                </div>
+                                <div class="column">
+                                    <img class="opening-times-img" src="Images/information/slide hours.png" alt="Image placeholder">
+                                    <h4>Slide hours</h4>
+                                    <p>10:30 AM to 7:30 PM</p>
+                                    <p>11:00 AM to 5:00 PM</p>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <br>
+                    <br>
+                    <section>
+                        <article>
+                            <h2>Accessibility</h2>
+                            <br>
+                            <br>
+                            <div class="grid-container-five">
+                                <div class="column-five">
+                                    <img src="Images/information/room-of-silence.png" alt="Accessibility feature image placeholder">
+                                    <br>
+                                    <h4>Room of Silence</h4>
+                                    <p>In today's fast-paced and often noisy world, our Room of Silence offers a welcome sanctuary
+                                        for guests seeking a moment of peace. This space is equipped with adjustable lighting,
+                                        offering a soothing ambiance to accommodate different preferences. Soft and cozy seating
+                                        ensures maximum comfort as you take a pause from the surrounding hustle and bustle.
+                                        Prioritizing privacy, the Room of Silence remains securely locked when not in use
+                                        and is made available to guests on a first-come-first-served basis.</p>
+                                </div>
+                                <div class="column-five">
+                                    <img src="Images/information/inclusive.png" alt="Accessibility feature image placeholder">
+                                    <br>
+                                    <h4>Inclusive Access Program</h4>
+                                    <p>Funpark is devoted to offering equal access for guests with disabilities, striving to
+                                        accommodate your needs and ensure an enjoyable visit. Our Inclusive Access Program is
+                                        designed to facilitate comprehensive participation in our parks while considering the
+                                        safety requisites of our rides and attractions. This program is developed in accordance
+                                        with manufacturer's guidelines and by assessing the physical and cognitive requirements
+                                        needed to safely engage with each ride and attraction. Details on all amenities and
+                                        services for disabled guests are included in our accessibility guide. We promise to
+                                        deliver an environment that guarantees both enjoyment and safety for all our visitors.</p>
+                                </div>
+                                <div class="column-five">
+                                    <img src="Images/information/autism-travel.png" alt="Accessibility feature image placeholder">
+                                    <br>
+                                    <h4>Travel Guide for Autism</h4>
+                                    <p>The International Board of Credentialing and Continuing Education Standards provides
+                                        a resource known as Autism Travel. This platform aids parents in understanding their
+                                        travel options and provides a community for sharing insights, planning trips alongside
+                                        other families, and discovering travel opportunities at some of the world's most
+                                        stunning locations.</p>
+                                </div>
+                                <div class="column-five">
+                                    <img src="Images/information/specialty-items-family.png" alt="Accessibility feature image placeholder">
+                                    <br>
+                                    <h4>Offering of Specialty items</h4>
+                                    <p>At Funpark, we understand and cater to our guests' unique dietary needs. That's why
+                                        we have a range of allergen-friendly, prepackaged items available for those with
+                                        special dietary requirements. Whether you're gluten-intolerant, have a nut allergy,
+                                        or are on a vegan diet, you'll find meals and snacks to suit your needs. For a
+                                        comprehensive list of these specialty items and where to find them in our park,
+                                        our meal facility supervisors are always ready to assist and guide you.</p>
+                                </div>
+                                <div class="column-five">
+                                    <img src="Images/information/allergen-cards.png" alt="Accessibility feature image placeholder">
+                                    <br>
+                                    <h4>Cards with allergen details</h4>
+                                    <p>At our guest service locations and key dining areas, you will find Cards with Allergen
+                                        Details. These cards offer essential data similar to what's found on our website,
+                                        including safety tips, recommendations for dining facilities catering to specific
+                                        dietary needs, and a chef card for your completion. We encourage you to collect one
+                                        of these cards upon arrival, ensuring you have all necessary details for a safe
+                                        and pleasurable stay with us.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div class="location-column">
+                                <br>
+                                <h2>Location</h2>
+                                <br>
+                                <img src="Images/information/map.png" alt="Image describing the park map">
+                                <h4>Spain, Santa Cruz de Tenerife, El Rosario, La Avenida Verde, 39</h4>
+                                <br>
+                                <br>
+                            </div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <h2 style="text-align: center;">Parking Info</h2>
+                            <br>
+                            <div class="grid-container-parking">
+                                <div class="column-parking">
+                                    <img src="Images/information/auto-parking.png" alt="Parking Image 1">
+                                    <p>We offer ample car parking spaces to accommodate all our visitors.
+                                        Our car park is well-marked and patrolled for safety.
+                                        Conveniently located, it provides easy access to the park's entrance.</p>
+                                </div>
+                                <div class="column-parking">
+                                    <img src="Images/information/moto-parking.png" alt="Parking Image 2">
+                                    <p>Motorcycle enthusiasts are welcome, with dedicated moto parking spaces available.
+                                        These areas are designed for the safe and secure parking of motorcycles.
+                                        Their location ensures easy access to and from the park.</p>
+                                </div>
+                                <div class="column-parking">
+                                    <img src="Images/information/trailer-parking.png" alt="Parking Image 3">
+                                    <p>Our park also supports visitors with trailers, offering spacious, designated
+                                        parking spots. These areas are specifically designed to accommodate the size
+                                        and turning radius of trailers. Please note, overnight parking for trailers
+                                        is not permitted.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <div id="tickets">
+                    <br>
+                    <br>
+                    <h1>Tickets</h1>
+                    <br>
+                    <br>
+                    <section>
+                        <div class="ticket-grid">
+                            <div class="ticket-item">
+                                <div class="ticket-content">
+                                    <h3>Regular Ticket</h3>
+                                    <p>Price: €50</p>
+                                    <p>Experience a day full of fun and excitement with our Regular One-Day Ticket.
+                                        This ticket provides access to all rides and attractions within our park for a single day.
+                                        Ideal for visitors who want to enjoy a memorable day out, this ticket is your
+                                        gateway to an array of thrilling adventures. This option is perfect for those
+                                        who are exploring the park for the first time and wish to get a taste of
+                                        everything we offer. Don't miss out on our top-rated attractions and immersive
+                                        thematic areas.</p>
+
+                                    <br>
+                                    <button class="buy-button">Buy</button>
+                                </div>
+                                <div class="ticket-image">
+                                    <img src="Images/information/regular-ticket.png" alt="Regular Ticket Image">
+                                </div>
+                            </div>
+                            <div class="ticket-item reverse-order">
+                                <div class="ticket-content">
+                                    <h3>Whole summer ticket</h3>
+                                    <p>Price: €500</p>
+                                    <p>Our Summer Ticket is perfect for those looking to make the most of the sunny season.
+                                        This special pass grants you unlimited access to the park for the entire summer period.
+                                        Dive into our exhilarating water rides, relax by the wave pool, or simply soak up
+                                        the summer sun. Enjoy endless entertainment, exclusive events, and amazing
+                                        discounts on dining and merchandise with our summer ticket. Make the most
+                                        of your summer holidays with unlimited fun and adventure at our park.</p>
+
+                                    <br>
+                                    <button class="buy-button">Buy</button>
+                                </div>
+                                <div class="ticket-image">
+                                    <img src="Images/information/summer-ticket.png" alt="Summer Ticket Image">
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="ticket-content">
+                                    <h3>Annual membership</h3>
+                                    <p>Price: €700</p>
+                                    <p>Invest in a full year of thrilling experiences with our Annual Membership.
+                                        This package allows unlimited access to the park throughout the year, letting
+                                        you enjoy every season's unique offerings. Being an annual member means more
+                                        than just unlimited access. You'll receive exclusive perks, special discounts,
+                                        and priority access to new attractions and events throughout the year.</p>
+                                    <br>
+                                    <button class="buy-button">Buy</button>
+                                </div>
+                                <div class="ticket-image">
+                                    <img src="Images/information/annual-ticket.png" alt="Annual Membership Image">
+                                </div>
+                            </div>
+                            <div class="ticket-item reverse-order">
+                                <div class="ticket-content">
+                                    <h3>Group Package</h3>
+                                    <p>from 5 to 10 persons - 10 %,
+                                        from 10 persons - 20 %</p>
+                                    <p>Planning a group outing? Our Group Package is designed to offer you and your
+                                        group an unforgettable experience at a discounted rate. Whether it's a family
+                                        reunion, a company event, or just a big gathering of friends, our package
+                                        ensures you all have a fantastic time. We offer support for large groups
+                                        including guided tours and custom itineraries to make your group experience
+                                        seamless and enjoyable.</p>
+
+                                    <br>
+                                    <button class="buy-button">Buy</button>
+                                </div>
+                                <div class="ticket-image">
+                                    <img src="Images/information/group-ticket.png" alt="Group Ticket Image">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="tips">
+                    <section>
+                        <br>
+                        <br>
+                        <h1>Tips & Guidelines</h1>
+                        <br>
+                        <br>
+                        <div class="tip-grid">
+                            <div class="tip-item">
+                                <div class="tip-content">
+                                    <h3>Safety First Approach</h3>
+                                    <p>When visiting our water theme park, safety is paramount. Please familiarize yourself
+                                        with our safety regulations and ride instructions. Every ride has specific
+                                        restrictions and guidelines - for your safety, it's crucial that these are
+                                        adhered to at all times. Remember, our staff is always present to guide you.
+                                        Children are bound to have an exciting time at our water theme park, but they
+                                        must always be under adult supervision. Keep an eye on them, especially when
+                                        they are in or near water bodies.</p>
+                                </div>
+                                <div class="tip-image">
+                                    <img src="Images/information/safety-approach.png" alt="Avoiding Long Lines">
+                                </div>
+                            </div>
+                            <div class="tip-item reverse-order">
+                                <div class="tip-content">
+                                    <h3>Hydration and Sun Protection</h3>
+                                    <p>With the excitement and thrill, it's easy to forget about the essentials.
+                                        Staying hydrated is vital. We offer several hydration stations across
+                                        the park - ensure you take advantage of them. Remember to carry a reusable
+                                        water bottle to keep yourself refreshed throughout your visit. Additionally,
+                                        protect your skin. Apply sunscreen liberally throughout the day, and consider
+                                        wearing a sun hat or protective clothing. Extended sun exposure can lead to
+                                        sunburn and other skin complications, so reapply sunscreen every two hours or
+                                        after swimming or sweating.
+                                    </p>
+                                </div>
+                                <div class="tip-image">
+                                    <img src="Images/information/hydration-sun.png" alt="Best Times to Visit">
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <div class="tip-content">
+                                    <h3>Mastering Queue Management and Strategic Planning </h3>
+                                    <p>Navigating crowds and lines at a water park can be made more manageable with
+                                        clever planning. To beat the crowds, consider visiting either early in the
+                                        day or staying late, as these tend to be less busy periods. Weekday visits
+                                        are also advisable, as weekends and holidays typically draw larger numbers
+                                        of guests. For highly demanded attractions, consider waiting until the morning
+                                        and noon rushes have subsided. If available, make use of 'fast-pass' or
+                                        'skip-the-line' options for popular rides, allowing you more time to explore
+                                        the park. Plan your meal times to avoid peak dining hours too.</p>
+                                </div>
+                                <div class="tip-image">
+                                    <img src="Images/information/queue-management.png" alt="What to Bring">
+                                </div>
+                            </div>
+                            <div class="tip-item reverse-order">
+                                <div class="tip-content">
+                                    <h3>Locker Use</h3>
+                                    <p>We offer locker facilities for your convenience. Keep your personal belongings
+                                        secure and avoid losing items on rides. Remember, while water-resistance is
+                                        common in gadgets, many aren't waterproof. Store gadgets securely to avoid damage.
+                                        Don't forget to keep a record of your locker number and ensure it's locked before leaving.
+                                        Please note that the park management will not be held responsible for any loss
+                                        or damage to your belongings, so it's in your best interest to use these facilities
+                                        wisely.
+                                    </p>
+                                </div>
+                                <div class="tip-image">
+                                    <img src="Images/information/locker-use.png" alt="Best Times to Visit">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                    </section>
+                </div>
+                <div id="services" style="display:none">
+                    <h2>Services at the Park</h2>
+
+                    <button onclick="openSubTab('convenient')">Convenient Services</button>
+                    <button onclick="openSubTab('barrierfree')">Barrier Free</button>
+                    <button onclick="openSubTab('childrenservices')">Services for Guests with Children</button>
+
+                    <div id="convenient" style="display:none">
+                        <h3>Convenient Services</h3>
+                        <div class="service">
+                            <img src="Images/OfficialApp.jpg" alt="Official App Image" width="100">
+                            <h4>Official App</h4>
+                            <p>This is a short description for the official app.</p>
+                        </div>
+                        <div class="service">
+                            <img src="Images/Mobile.jpg" alt="Mobile Battery Rental Services Image" width="100">
+                            <h4>Mobile Battery Rental Services</h4>
+                            <p>This is a short description for the mobile battery rental services.</p>
+                        </div>
+                        <div class="service">
+                            <img src="Images/StorageLockers.jpg" alt="Storage Lockers Image" width="100">
+                            <h4>Storage Lockers</h4>
+                            <p>This is a short description for the storage lockers.</p>
+                        </div>
+                    </div>
+                    <div id="barrierfree" style="display:none">
+                        <h3>Barrier Free</h3>
+                        <div class="service">
+                            <img src="Images/BarrierFree.jpg" alt="Barrier Free Information Image" width="100">
+                            <h4>Barrier Free Information</h4>
+                            <p>This is a short description for the barrier free information service.</p>
+                        </div>
+                        <div class="service">
+                            <img src="Images/Wheelchair.jpg" alt="Wheelchairs Image" width="100">
+                            <h4>Wheelchairs</h4>
+                            <p>This is a short description for the wheelchair service.</p>
+                        </div>
+
+                    </div>
+                    <div id="childrenservices" style="display:none">
+                        <h3>Services for Guests with Children</h3>
+                        <div class="service">
+                            <img src="Images/Stroller" alt="Stroller Rentals Image" width="100">
+                            <h4>Stroller Rentals</h4>
+                            <p>This is a short description for the stroller rentals service.</p>
+                        </div>
+                        <div class="service">
+                            <img src="Images/BabyCenter.jpg" alt="Baby Center Image" width="100">
+                            <h4>Baby Center</h4>
+                            <p>This is a short description for the baby center service.</p>
+                        </div>
+                        <div class="service">
+                            <img src="Images/LostChildren.jpg" alt="Lost Children Image" width="100">
+                            <h4>Lost Children</h4>
+                            <p>This is a short description for the lost children service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="faq" style="display:none">
+                    <h2 id="faq">Frequently Asked Questions</h2>
+                    <div class="search-box">
+                        <input type="text" placeholder="Enter a name, topic, or keyword.">
+                        <button>Search</button>
+                    </div>
+                    <h3>Categories</h3>
+                    <ul>
+                        <li>Park Tickets</li>
+                        <li>Special Events/Programs/Campaigns</li>
+                        <li>Shops, Guest Services</li>
+                        <li>Online Reservations & Tickets</li>
+                        <li>Payment</li>
+                        <li>Hotels</li>
+                        <li>Restaurants</li>
+                        <li>Attractions</li>
+                        <li>Official App</li>
+                    </ul>
+                </div>
+                <br>
+                <hr>
+            </main>
+
+            <footer>
+                <nav class="navbar">
+                    <a>Funpark</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+                    <a href="attractions.html">Attractions & Dining</a>&nbsp;&nbsp;&nbsp
+                    <a href="logistics.html">Visitor Information & Services</a>
+                </nav>
+            </footer>
+
+            <script>
+                function openTab(tabId) {
+                    var tabs = ['planvisit', 'tickets', 'tips', 'services', 'faq'];
+
+                    // hide all tabs
+                    for(var i = 0; i < tabs.length; i++) {
+                        document.getElementById(tabs[i]).style.display = 'none';
+                    }
+
+                    // show selected tab
+                    document.getElementById(tabId).style.display = 'block';
+
+                    // if the services tab is opened, open the first sub-tab
+                    if (tabId === 'services') {
+                        openSubTab('convenient');
+                    }
+                }
+
+                function openSubTab(tabId) {
+                    var tabs = ['convenient', 'barrierfree', 'childrenservices'];
+
+                    // hide all sub-tabs
+                    for(var i = 0; i < tabs.length; i++) {
+                        document.getElementById(tabs[i]).style.display = 'none';
+                    }
+
+                    // show selected sub-tab
+                    document.getElementById(tabId).style.display = 'block';
+                }
+                    document.addEventListener("DOMContentLoaded", function() {
+                        openTab('planvisit');
+                    }
+                );
+            </script>
+        </div>
+    </body>
+</html>

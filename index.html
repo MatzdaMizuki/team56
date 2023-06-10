@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Waterworld Funpark Resort</title>
+    <meta name="description" content="My Website">
+    <link rel="stylesheet" href="StyleSheets/layout.css">
+    <link rel="stylesheet" href="StyleSheets/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Images/Waterworld.png" alt="Waterpark Logo">
+            </a>
+        </div>
+        <div class="header-content">
+            <h1>Welcome to Waterworld Funpark Resort</h1>
+            <nav id="header-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="attractions.html">Attractions & Dining</a></li>
+                    <li><a href="information.html">Visitor Information & Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-container">
+        <div class="banner">
+            <img src="Images/welcome_banner.png"
+                alt="Welcome image with smiling happy people with rollercoaster in the background">
+            <div class="banner-text">
+                <h2>Welcome to Waterworld Funpark Resort</h2>
+                <p>Plan your visit to Funpark Theme Park</p>
+                <small>Enjoy the best theme park experience!</small>
+            </div>
+            <img src="Images/welcome_banner2.png"
+                alt="Welcome image with smiling happy people with shops in the background">
+        </div>
+
+        <div id="tickets">
+            <p>Find information on ticket prices, types, and how to purchase.</p>
+            <a href="information.html#tickets">Tickets and Packages</a>
+        </div>
+    </div>
+    <main>
+        <section>
+            <h2>Popular attractions</h2>
+            <div class="image-list-container">
+                <a href="attractions.html#attractions">
+                    <figure>
+                        <img src="Images/wave_pool.jpg" alt="Wave Pool Image">
+                        <figcaption>Wave pool</figcaption>
+                    </figure>
+                </a>
+                <a href="attractions.html#attractions">
+                    <figure>
+                        <img src="Images/lazy_river.jpg" alt="Lazy River Image">
+                        <figcaption>Lazy River</figcaption>
+                    </figure>
+                </a>
+                <a href="attractions.html#attractions">
+                    <figure>
+                        <img src="Images/water_slides.jpg" alt="Water Slides Image">
+                        <figcaption>Water Slides</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <h2>Did you know?</h2>
+            <div class="misc-list-container">
+                <a href="#history" onclick="openTab('history')">
+                    <figure>
+                        <img src="Images/history.png" alt="historic photo of the theme park with sepia">
+                        <figcaption>History</figcaption>
+                    </figure>
+                </a>
+
+                <a href="attractions.html#dining">
+                    <figure>
+                        <img src="Images/Dining.jpg" alt="beautiful open restaurant near a pool">
+                        <figcaption>Restaurants</figcaption>
+                    </figure>
+                </a>
+
+                <a href="#services" onclick="openTab('services')">
+                    <figure>
+                        <img src="Images/LostChildren.jpg" alt="photo of baby center building">
+                        <figcaption>Services</figcaption>
+                    </figure>
+                </a>
+
+                <a href="#map" onclick="openTab('map')">
+                    <figure>
+                        <img src="Images/OfficialApp.jpg" alt="screenshot of the official map with map open">
+                        <figcaption>Map</figcaption>
+                    </figure>
+                </a>
+
+                <a href="information.html#planvisit">
+                    <figure>
+                        <img src="Images/checklist.png" alt="cartoon image of a checklist">
+                        <figcaption>
+                            <span>Plan Your Visit</span>
+                            <p>Make the most of your visit with our handy planning guide.</p>
+                        </figcaption>
+                    </figure>
+
+                </a>
+            </div>
+        </section>
+        <hr>
+
+        <section id="history">
+            <h3>History</h3>
+            <img src="Images/history.png" style="width: 720px;" alt="Image of History">
+            <p>Learn more about the history of our park and how it came to be.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus doloremque iste autem animi
+                praesentium ut labore quam, eaque quos excepturi possimus quas maxime ab inventore eos odit minus
+                maiores!</p>
+        </section>
+        <section id="services">
+            <h3>Services</h3>
+            <img src="Images/BabyCenter.jpg" style="width: 720px;" alt="Image of Services">
+            <p>Learn more about the services we provide to enhance your visit.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus doloremque iste autem animi
+                praesentium ut labore quam, eaque quos excepturi possimus quas maxime ab inventore eos odit minus
+                maiores!</p>
+        </section>
+        <section id="map">
+            <h3>Map</h3>
+            <img src="Images/OfficialApp.jpg" style="width: 720px;" alt="Image of Map">
+            <p>Get familiar with the layout of our park with the detailed map. </p>
+        </section>
+    </main>
+    <footer id="footer">
+        <nav id="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="attractions.html">Attractions & Dining</a>
+            <a href="information.html">Visitor Information & Services</a>
+        </nav>
+        <h2>Waterworld Funpark Resort</h2>
+        <div id="contact-us">
+            <ul>
+                <li>
+                    <h4>Email</h4>
+                    <p>Feel free to send us an email at <a href="mailto:info@example.com">info@example.com</a>.</p>
+                </li>
+                <li>
+                    <h4>Telephone</h4>
+                    <p>Our customer service team is available at <a href="tel:+123456789">+123456789</a>.</p>
+                </li>
+                <li>
+                    <h4>Address</h4>
+                    <p>Our address is 1234 Funpark Drive, Funpark, 1234.</p>
+                </li>
+                <li>
+                    <h4>Contact Us Form</h4>
+                    <p>You can fill out our <a href="contactform.html">Contact Us Form</a> and we'll get back to
+                        you as soon as possible.</p>
+                </li>
+                <li>
+                    <h4>Follow Us</h4>
+                    <p>Follow us on <a href="https://www.facebook.com/">Facebook</a> and <a
+                            href="https://www.instagram.com/">Instagram</a> for the latest updates.</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(tabId) {
+            var tabs = ['history', 'services', 'map'];
+
+            // hide all tabs
+            for(var i = 0; i < tabs.length; i++) {
+                document.getElementById(tabs[i]).style.display = 'none';
+            }
+
+            // show selected tab
+            document.getElementById(tabId).style.display = 'block';
+        }
+    </script>
+
+
+</body>
+
+</html>

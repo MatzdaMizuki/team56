@@ -1,0 +1,95 @@
+.banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e6fcdf;
+}
+
+.banner img {
+   width: auto;
+   height: 320px;
+}
+
+.banner-container {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.banner-container #tickets {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner-container #tickets a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-container #tickets a:hover {
+    text-decoration: underline;
+}
+
+.image-list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #e6fcdf;
+}
+
+.image-list-container img {
+    width: 320px;
+    height: auto;
+}
+
+.misc-list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #e6fcdf;
+}
+
+.misc-list-container img {
+    width: 160px;
+    height: auto;
+}
+
+#history {
+    display: none;
+}
+
+#services {
+    display: none;
+}
+
+#map {
+    display: none;
+}
+
+#footer, #footer h2 {
+    color: #fff;
+    background-color: #007bff;
+}
+
+#contact-us ul {
+    border-top: 1px solid #e6fcdf;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+#contact-us ul li {
+    margin-bottom: 10px;
+}

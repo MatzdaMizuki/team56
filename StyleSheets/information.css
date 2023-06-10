@@ -1,0 +1,209 @@
+
+
+.page-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* To center the header text */
+.index {
+    text-align: center;
+}
+
+/* For navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-group button {
+    padding: 10px 10px; /* adjusts the space around the text */
+    height: 40px; /* adjust as needed */
+    width: 190px; /* adjust as needed */
+    font-size: 12px; /* adjust as needed */
+}
+
+/* Centering the buttons */
+body > .page-container {
+    text-align: center;
+}
+
+/* For articles */
+article h3 {
+    text-align: center;
+}
+
+article p, article img {
+    display: block;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column h4 {
+    margin-top: 10px;
+}
+
+.opening-times-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 75px;
+}
+
+.grid-container-five {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.column-five {
+    flex: 1;
+    margin: 10px;
+    text-align: justify;
+}
+
+.column-five h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.column-five img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 255px;
+    height: 150px;
+}
+
+.location-column {
+    text-align: center;
+}
+
+.location-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 450px;
+}
+
+.grid-container-parking {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Change to adjust the overall width of the three columns. */
+    margin: 0 auto; /* This will center your columns. */
+}
+
+.column-parking {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.column-parking img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 70px;
+}
+
+.column-parking p {
+    text-align: justify;
+}
+
+#tickets {
+    text-align: center;
+}
+
+
+#tips {
+    text-align: center;
+}
+
+.ticket-grid, .tip-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;  /* Adjust this for desired overall width */
+    margin: 0 auto;
+}
+
+.ticket-item, .tip-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Both areas have equal width */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-item:nth-child(even), .tip-item:nth-child(even) {
+    grid-template-areas:
+        "ticket-image ticket-content";
+}
+
+.ticket-item:nth-child(odd), .tip-item:nth-child(odd) {
+    grid-template-areas:
+        "ticket-content ticket-image";
+}
+
+.ticket-content, .tip-content {
+    grid-area: ticket-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.ticket-image, .tip-image {
+    grid-area: ticket-image;
+}
+
+.ticket-image img, .tip-image img {
+    width: 100%;  /* Let the image resize based on the grid column width */
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .ticket-item, .tip-item {
+        grid-template-columns: 1fr;
+    }
+
+    .ticket-item:nth-child(even),
+    .ticket-item:nth-child(odd),
+    .tip-item:nth-child(even),
+    .tip-item:nth-child(odd) {
+        grid-template-areas:
+            "ticket-content"
+            "ticket-image";
+    }
+}
