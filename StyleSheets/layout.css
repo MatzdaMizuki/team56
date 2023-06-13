@@ -1,3 +1,17 @@
+/* 
+@Mizuki: import external font 
+
+H1: "Lobster": Unique, bold style.
+H2:"Bubblegum Sans": another fun font to target a younger audience.
+H3: "Bangers": comic book style font for a more energetic and youthful tone.
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -71,6 +85,9 @@ h1 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
+    /* @Mizuki Added external font*/
+    font-family: 'Lobster', cursive;
+    
 }
 
 section {
@@ -82,12 +99,17 @@ h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    /* @Mizuki Added external font*/
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 h3 {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
+    /* @Mizuki Added external font*/
+    font-family: 'Bangers', cursive;
+
 }
 
 .sections {
