@@ -68,7 +68,7 @@ p {
   object-fit: contain;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) { /* @Mizuki: Changed from 768px to 800 px so that it is in line with information.css */
   .column {
     flex-basis: 100%;
   }
